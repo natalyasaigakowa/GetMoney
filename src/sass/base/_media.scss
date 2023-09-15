@@ -1,0 +1,249 @@
+@media (max-width: 1200px) {
+    .nav {       
+        &__link {
+            font-size: 12px;
+        }
+    }
+    .button {
+        width: 150px;
+        height: 38px;
+        &__login {
+            width: 100px;
+            &__white {
+                width: 165px;
+                height: 37px;
+            }
+        }
+        &__calculation {
+            width: 219px;
+            height: 57px;
+        }
+    }
+    .promo {
+        &__wrap {
+            margin-top: 130px;
+        }
+        &__message-left {
+            right: 10px;
+        }
+        &__message-right {
+            top: 115px;
+            right: -205px;
+        }
+        &__phone {
+            top: -216px;
+            right: -201px;
+        }
+        &__cards {
+            margin-top: 60px;
+        }
+    }
+
+    .rates {
+        &__title {
+            font-size: 57px;
+        }
+    }
+
+    .start, .turnover, .gold {
+        &__wrap {
+            width: 890px;
+        }
+
+    }
+    .gold__card-start, .start__card-start, .turnover__card-turnover, .gold__card-gold {
+        width: 51%;  
+    }
+
+    .calculation {
+        &__slider {
+        margin-top: 65px;
+        }
+        &__title {
+            font-size: 57px;
+        }
+    }
+
+    .amount__slider, .term__slider {
+        margin-top: 35px;
+        width: 520px;
+    }
+
+    .footer {
+        &__company {
+            margin-top: 48px;
+            font-size: 10px;
+        }
+
+    }
+
+    .base {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .header {
+        padding: 18px 15px;
+    }
+    .nav {
+        &__link {
+            font-size: 11px;
+        }
+        &__list {
+            gap: 25px; 
+        }
+    }
+    .button {
+        width: 120px;
+        height: 38px;
+        font-size: 12px;
+        &__login {
+            width: 100px;
+            &__white {
+                width: 121px;
+                height: 39px;
+            }
+        }
+        &__calculation {
+            width: 179px;
+            height: 52px;
+            margin-top: 23px;        
+        }
+        &__carousel {
+            width: 155px;
+            height: 49px;
+            font-size: 14px;
+        }
+    }
+    
+    .promo {
+        &__title {
+            width: 308px;
+            font-size: 43px;
+        }
+        &__phone {
+            top: -125px;
+            right: -189px;
+            max-width: 100%;
+        }
+        &__message-left {
+            max-width: 63%;
+            right: -28px;
+        }
+        &__message-right {
+            max-width: 63%;
+            top: 47px;
+            right: -258px;
+        }
+    }
+    .cards {
+        width: 537px;
+    }
+    .rates {
+        &__title {
+            width: 760px;
+            font-size: 43px;
+        }
+    }
+    .start, .turnover, .gold {
+        &__wrap {
+            width: 730px;
+            padding: 46px 279px 50px 69px;
+        }
+        &__card-start, &__card-turnover, &__card-gold {
+            width: 47%;
+            left: 470px;
+            top: 74px;
+        }
+    }
+    .slick-prev {
+        bottom: 89px;
+        left: 288px;
+    }
+    
+    .slick-next {
+        position: absolute;
+        bottom: 89px;
+        left: 370px;
+    }
+
+    .calculation {
+        &__wrap {
+            margin: 120px 155px 155px 155px;
+        }
+        &__slider {
+        margin-top: 50px;
+        width: 700px;
+        }
+        &__title {
+            font-size: 43px;
+        }
+        &__result {
+            height: 325px;
+            padding: 36px 34px 36px 34px;  
+        }
+        &__choice {
+            font-size: 18px;
+        }
+    }
+    .amount, .term {
+        line-height: 20px;
+        &__slider {
+        margin-top: 30px;
+        width: 435px;
+        }
+        &__result {
+            font-size: 25px;
+        }
+    }
+    .amount__result, .term__result {
+        font-size: 25px;
+    }
+    .amount__symbol, .term__days {
+        font-size: 25px;
+    }
+
+    .result {
+        font-size: 16px;
+        &__amount, &__term {
+            line-height: 28px;
+        }
+    }
+    .result__amount-money {
+        font-size: 30px;
+    }
+    .result .result__term-data {
+        font-size: 30px;
+    }
+    .footer {
+        font-size: 12px;
+        &__company {
+            margin-top: 48px;
+            font-size: 10px;
+        }
+        &__phone {
+            width: 122px;
+            margin-right: 14px;
+        }
+        &__email {
+            width: 122px;
+            margin-right: 14px;
+        }
+
+    }
+
+    .base {
+        font-size: 16px;
+    }
+
+}
+
+// @media (max-width: 767px) {
+
+// }
+
+// @media (max-width: 575px) {
+    
+// }

@@ -1,0 +1,67 @@
+.button {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background: #3C50E8;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0 20px 30px -13px #3c50e8;
+    &:hover {
+        cursor: url("../icons/cursor.svg"), pointer;
+    }
+        
+    &__login {
+        width: 100px;
+        border-radius: 5px;
+        border: 1px solid #CDD3FF;
+        background: none;
+        color: #3C50E8;
+        box-shadow: none;
+        &:hover {
+            background-color: #3C50E8;
+            color: #FFF;
+            fill: #fff;
+        }     
+        &__white {
+            margin-top: 10px;
+            color: #FFF;
+            width: 190px;
+            &:hover {
+                background-color: #FFF;
+                color: #3C50E8;
+            }
+        }
+        &__login-icons {
+            &:hover {
+                fill: #FFF;
+            }
+        }
+
+   }
+
+    &__promo {
+        margin-top: 40px;
+        width: 250px;
+        height: 70px;
+    }
+    &__carousel {
+        margin-top: 52px;
+        width: 310px;
+        height: 70px;
+        font-size: 16px;
+    }
+    &__calculation {
+        margin-top: 31px;
+        width: 290px;
+        height: 70px;        
+    }
+    &__footer {
+        width: 190px;
+        &:hover {
+            background-color: #FFF;
+            color: #3C50E8;
+        }
+    }
+}
+

@@ -1,0 +1,109 @@
+.rates {
+    &__wrap {
+        margin: 155px 0 0 155px;
+    }
+    &__title {
+        width: 823px;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: -1.2px;
+    }
+}
+
+.container-rates {
+    max-width: 1440px;
+    padding: 0 0;
+    margin: 0 auto;
+}
+
+.start, .turnover, .gold {
+    margin-top: 61px;
+    &__wrap {
+        position: relative;
+        padding: 50px 612px 50px 69px;
+        border-radius: 30px;
+        background: #F1F1F1;
+        width: 990px;
+        height: 451px;
+    }
+    &__rate {
+        color: $main-color;
+    }
+    &__title {
+        margin-top: 2px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: -0.6px;      
+    }
+    &__descr {
+        margin-top: 23px;
+        color: $main-color;
+        line-height: 140%;
+    }
+    &__percent {
+        margin-top: 33px;
+        display: flex;
+        justify-content: space-between;
+        width: 309px;
+        font-size: 20px;
+        line-height: 140%;
+    }
+    &__percent_weight {
+        font-weight: 500;
+    }
+    &__amount {
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+        width: 309px;
+        font-size: 20px;
+        line-height: 140%;        
+    }
+
+    &__amount_color {
+        color: #3C50E8;
+        font-weight: 700;
+    }
+
+    &__card-start {
+        position: absolute;
+        z-index: 1;
+        left: 587px;
+        top: 53px;
+    }
+    &__card-turnover-part {
+        position: absolute;
+        z-index: 4;
+        left: 1198px;
+        top: 53px;
+        width: 439px;
+    }
+    &__card-turnover {
+        position: absolute;
+        z-index: 1;
+        left: 587px;
+        top: 53px;
+    }
+    &__card-gold {
+        position: absolute;
+        z-index: 5;
+        left: 587px;
+        top: 53px;
+    }
+}
+
+.slick-prev {
+    position: absolute;
+    bottom: 70px;
+    left: 409px;
+    z-index: 3;
+}
+
+.slick-next {
+    position: absolute;
+    bottom: 70px;
+    left: 489px;
+    z-index: 4;
+}

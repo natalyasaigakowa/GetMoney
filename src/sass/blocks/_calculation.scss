@@ -1,0 +1,89 @@
+.calculation {
+    &__wrap {
+        margin: 159px 155px 189px 155px;
+    }
+    &__title {
+        width: 823px;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+    }
+    &__slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 79px;
+    }
+    &__choice {
+        font-size: 20px;
+    }
+    &__result {
+        height: 360px;
+        border-radius: 30px;
+        background: #2D2D2D;
+        color: #FFF;
+        padding: 41px 40px 46px 40px;       
+    }
+}
+
+.amount, .term {
+    line-height: 28px;
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__slider {
+        margin-top: 43px;
+        width: 690px;
+    }
+    &__meaning {
+        margin-top: 7px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 300;
+
+    }
+    &__result {
+        font-size: 30px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+    &__wrap {
+        display: flex;        
+    }
+}
+
+.amount__symbol, .term__days {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.term {
+    margin-top: 64px;   
+}
+
+.result {
+    color: #B9B9B9;
+    font-size: 20px;
+    font-weight: 400;
+    &__amount {
+        line-height: 28px
+    }
+    &__amount-money, .result__term-data {
+        margin-top: 6px;
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: -0.8px;
+    }
+    &__ruble {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.4px;
+    }
+    &__term {
+        margin-top: 24px;
+    }
+}

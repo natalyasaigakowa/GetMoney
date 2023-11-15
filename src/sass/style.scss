@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -22,6 +24,9 @@
 
 @import "base/media";
 
+html {
+    height: 100%;
+}
 
 body {
     margin: 0;
@@ -35,12 +40,14 @@ body {
     height: 100%;
 }
 
+.main-container {
+    flex-grow: 1;
+}
 
 .container {
     max-width: 1440px;
     padding: 0 15px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 img {
@@ -49,13 +56,11 @@ img {
     height: auto;
 }
 
-
 iframe, img, svg, video {
     max-width: 100%;
     vertical-align: top;
     height: auto;
 }
-
 
 button {
     padding: 0;
@@ -63,28 +68,23 @@ button {
     border: none;
 }
 
-
 h1, h2, h3, h4 {
     margin: 0;
     font-weight: normal;
 }
 
-
 p {
     margin: 0;
 }
-
 
 ul {
     margin: 0;
     padding-left: 0;
 }
 
-
 li {
     list-style-type: none;
 }
-
 
 a {
     text-decoration: none;

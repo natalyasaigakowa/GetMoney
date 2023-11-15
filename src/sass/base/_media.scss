@@ -6,17 +6,19 @@
     }
     .button {
         width: 150px;
-        height: 38px;
+        min-height: 38px;
+        padding: 4px 10px;
         &__login {
             width: 100px;
+            padding: 8px 10px 8px 40px;
             &__white {
                 width: 165px;
-                height: 37px;
+                min-height: 37px;
             }
         }
         &__calculation {
             width: 219px;
-            height: 57px;
+            min-height: 57px;
         }
     }
     .promo {
@@ -24,15 +26,16 @@
             margin-top: 130px;
         }
         &__message-left {
-            right: 10px;
+            top: -129px;
+            right: 171px;
         }
         &__message-right {
-            top: 115px;
-            right: -205px;
+            top: 52px;
+            right: -88px;
         }
         &__phone {
-            top: -216px;
-            right: -201px;
+            top: -211px;
+            left: 189px;
         }
         &__cards {
             margin-top: 60px;
@@ -52,7 +55,7 @@
 
     }
     .gold__card-start, .start__card-start, .turnover__card-turnover, .gold__card-gold {
-        width: 51%;  
+        width: 48%;  
     }
 
     .calculation {
@@ -97,23 +100,23 @@
     }
     .button {
         width: 120px;
-        height: 38px;
+        min-height: 38px;
         font-size: 12px;
         &__login {
             width: 100px;
             &__white {
                 width: 121px;
-                height: 39px;
+                min-height: 39px;
             }
         }
         &__calculation {
             width: 179px;
-            height: 52px;
+            min-height: 52px;
             margin-top: 23px;        
         }
         &__carousel {
             width: 155px;
-            height: 49px;
+            min-height: 49px;
             font-size: 14px;
         }
     }
@@ -181,7 +184,7 @@
             font-size: 43px;
         }
         &__result {
-            height: 325px;
+            min-height: 325px;
             padding: 36px 34px 36px 34px;  
         }
         &__choice {

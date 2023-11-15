@@ -1,41 +1,39 @@
 .promo {
     &__wrap {
-        margin: 142px 140px 0 140px;
         position: relative;
+        padding: 113px 140px 40px 140px;
     }
     &__title {
-        width: 420px;
+        width: 415px;
+        margin-bottom: 33px;
         font-size: 57px;
         font-weight: 500;
-        line-height: 100%;
+        line-height: 57px;
         letter-spacing: -1.14px;
     }
     &__subtitle {
         width: 331px;
-        margin-top: 30px;
+        margin-bottom: 40px;
         font-size: 20px;
         font-weight: 300;
-        line-height: 140%;        
+        line-height: 28px;        
     }
     &__phone {
         position: absolute;
-        top: -193px;
-        right: -157px;
+        top: -76px;
+        left: 323px;
     }
     &__message-left {
         position: absolute;
         z-index: 2;
-        top: -71px;
-        right: 119px;
+        top: 45px;
+        right: 262px;
     }
     &__message-right {
         position: absolute;
         z-index: 3;
-        top: 133px;
-        right: -103px;       
-    }
-    &__cards {
-        margin-top: 146px;
+        top: 252px;
+        right: 41px;;       
     }
 }
 
@@ -56,7 +54,7 @@
         width: 487px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        gap: 30px;
     }
 }
 

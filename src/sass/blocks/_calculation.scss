@@ -1,9 +1,9 @@
 .calculation {
     &__wrap {
-        margin: 159px 155px 189px 155px;
+        padding: 159px 102px 188px 140px;
     }
     &__title {
-        width: 823px;
+        margin-bottom: 45px;
         font-size: 60px;
         font-weight: 500;
         line-height: 60px;
@@ -11,9 +11,9 @@
     }
     &__slider {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        margin-top: 79px;
+        gap: 70px;
+
     }
     &__choice {
         font-size: 20px;
@@ -23,23 +23,24 @@
         border-radius: 30px;
         background: #2D2D2D;
         color: #FFF;
-        padding: 41px 40px 46px 40px;       
+        padding: 40px 40px 46px 40px;       
     }
 }
 
 .amount, .term {
     line-height: 28px;
+    margin-bottom: 64px;  
     &__text {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 27px;
     }
     &__slider {
-        margin-top: 43px;
         width: 690px;
+        margin-bottom: 7px;
     }
     &__meaning {
-        margin-top: 7px;
         display: flex;
         justify-content: space-between;
         font-weight: 300;
@@ -61,7 +62,7 @@
 }
 
 .term {
-    margin-top: 64px;   
+ margin: 0;
 }
 
 .result {
@@ -69,10 +70,11 @@
     font-size: 20px;
     font-weight: 400;
     &__amount {
+        margin-bottom: 24px;
         line-height: 28px
     }
     &__amount-money, .result__term-data {
-        margin-top: 6px;
+        margin-top: 10px;
         color: #FFF;
         font-size: 40px;
         font-weight: 500;
@@ -84,6 +86,6 @@
         letter-spacing: -0.4px;
     }
     &__term {
-        margin-top: 24px;
+        margin-bottom: 24px;
     }
 }

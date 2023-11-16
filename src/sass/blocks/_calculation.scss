@@ -1,6 +1,6 @@
 .calculation {
     &__wrap {
-        padding: 159px 102px 188px 140px;
+        padding: 118px 102px 188px 140px;
     }
     &__title {
         margin-bottom: 45px;
@@ -11,6 +11,7 @@
     }
     &__slider {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         gap: 70px;
 
@@ -35,6 +36,9 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 27px;
+    }
+    &__pick {
+        width: 300px;
     }
     &__slider {
         width: 690px;
